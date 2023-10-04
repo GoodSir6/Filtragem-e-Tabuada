@@ -1,0 +1,46 @@
+#valor-form {
+            font-size: 32px;
+            height: 100px;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #221919;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 150vh;
+            flex-direction: column-reverse;
+        }
+
+        .container {
+            background-color: #000000;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        #campo-numero {
+            font-size: 18px;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        #resultado {
+            font-size: 18px;
+            background-color: #ffffff;
+            border: 1px solid #8f3c3c;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: left;
+            margin: -20px 0 0 -10px;
+        }
